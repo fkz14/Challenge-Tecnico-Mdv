@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reto Frontend Trainee</title>
+    <link rel="stylesheet" href="css/styles.css" /> <!-- Enlazamos nuestro CSS -->
+  </head>
+
+  <body>
+    <!-- ===== HEADER ===== -->
+    <header class="header">
+      <img class="header__logo" src="./img/logoMindDevPeru.jpg" alt="Logo de MindDevPeru">
+      <nav class="header__nav" aria-label="Navegación principal">
+        <ul class="nav__list">
+          <li><a href="#inicio" class="nav__link">Inicio</a></li>
+          <li><a href="#servicios" class="nav__link">Servicios</a></li>
+          <li><a href="#contacto" class="nav__link">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section id="inicio" class="hero">
+      <h1 class="hero__title">Bienvenido al Reto Trainee Frontend 🚀</h1>
+      <p class="hero__subtitle">Aprende, crea y demuestra tu potencial</p>
+      <button id="btnVerMas" class="btn btn--primary">Ver más</button>
+    </section>
+
+    <!-- ===== SERVICIOS ===== -->
+    <section id="servicios" class="services">
+      <h2 class="section__title">Nuestros Servicios</h2>
+      <div class="services__grid">
+        <article class="service__card">
+          <span class="service__icon">💻</span>
+          <h3 class="service__title">Desarrollo Web</h3>
+          <p class="service__desc">Creamos sitios modernos y optimizados.</p>
+        </article>
+
+        <article class="service__card">
+          <span class="service__icon">🎨</span>
+          <h3 class="service__title">Diseño UI/UX</h3>
+          <p class="service__desc">Interfaces intuitivas y atractivas.</p>
+        </article>
+
+        <article class="service__card">
+          <span class="service__icon">🚀</span>
+          <h3 class="service__title">Optimización</h3>
+          <p class="service__desc">Mejoramos el rendimiento de tus apps.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== CONTACTO ===== -->
+    <section id="contacto" class="contact">
+      <h2 class="section__title">Contacto</h2>
+      <form id="contactForm" class="contact__form" novalidate> <!-- Validamos por nuesta propia cuenta el formulario -->
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre" required />
+        <input type="email" id="correo" name="correo" placeholder="Correo" required />
+        <textarea id="mensaje" name="mensaje" placeholder="Mensaje" required></textarea>
+        <button type="submit" class="btn btn--secondary">Enviar</button>
+      </form>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+      <p>© 2025 MindDev Perú + Almiron Alejo</p>
+    </footer>
+
+    <script src="js/main.js"></script> <!-- Enlazamos nuestro JS -->
+  </body>
+</html>
