@@ -52,6 +52,6 @@ Durante este reto busqué reforzar:
 
 ## 👨‍💻 Autor
 **Almiron Alejo**  
-Frontend Developer Trainee  
+Full Stack Developer Jr.  
 📞 +54 11 5160-9715  
 🔗 [www.linkedin.com/in/alejo-daniel-almirón](https://www.linkedin.com/in/alejo-daniel-almirón)
