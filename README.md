@@ -1,6 +1,6 @@
-# 🚀 Reto Frontend Trainee – MindDev Perú
+# 🚀 Reto Frontend Jr – MindDev Perú
 
-Este proyecto fue desarrollado como parte del **Reto Frontend Trainee**, con el objetivo de demostrar manejo de **HTML5, CSS3 y JavaScript** aplicando buenas prácticas, diseño responsivo moderno y una estructura clara del código.
+Este proyecto fue desarrollado como parte del **Reto Frontend Jr**, con el objetivo de demostrar manejo de **HTML5, CSS3 y JavaScript** aplicando buenas prácticas, diseño responsivo moderno y una estructura clara del código.
 
 ---
 
